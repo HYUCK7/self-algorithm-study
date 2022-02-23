@@ -29,7 +29,8 @@ public class Controller {
                         case 0:
                             System.out.println("exit"); return;
                         case 1: service.reverse(scanner); break;
-                        case 2: service.minmax(scanner);
+                        case 2: service.minmax(scanner);break;
+                        case 3: service.prime(scanner);break;
                     }
             }break;
         }

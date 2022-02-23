@@ -17,4 +17,9 @@ public interface Service {
     void reverse(Scanner scanner);
     void minmax(Scanner scanner);
     void prime(Scanner scanner);
+    void allplus(Scanner scanner);
+    void minmax2(Scanner scanner);
+    void comparison(Scanner scanner);
+    void newReturn(Scanner scanner);
+    void deleteSame(Scanner scanner);
 }

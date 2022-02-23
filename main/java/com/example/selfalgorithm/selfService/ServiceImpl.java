@@ -79,6 +79,34 @@ public class ServiceImpl implements Service{
                 max = k;
             }
         }
+    }
 
+    @Override
+    public void allplus(Scanner scanner) {
+        // 5개의 양수를 입력 받아, 배열의 요소들의 합 구하기
+    }
+
+    @Override
+    public void minmax2(Scanner scanner) {
+        // 정해진 배열의 최대값, 최소값 구하기(10개의 수 내가 넣기)
+    }
+
+    @Override
+    public void comparison(Scanner scanner) {
+        // 순서가 없는 두 배열에서 서로 같은 요소를 포함하는 지 판별
+        // A배열[1,3,2], B배열 [2,3,1]
+    }
+
+    @Override
+    public void newReturn(Scanner scanner) {
+        //중복된 요소를 제거한 새 배열을 반환하는 메소드 작성
+        //중복 제거된 빈 요소는 기본값 0으로 삽입된다.
+        //int arr{5,10,9,26,3,8,10,4,3,5}
+    }
+
+    @Override
+    public void deleteSame(Scanner scanner) {
+        //사용자로부터 소문자 알파벳 1개를 입력받아 대문자로 변경하여 출력하는 코드 작성
+        //ex) 'a' => 'A'로 출력
     }
 }
